@@ -1,0 +1,108 @@
+@font-face {
+  font-family: 'Aparajita';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/aparaj.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #guess-form {
+    margin-top: 20px;
+  }
+  
+  #guess-input {
+    padding: 5px;
+    width: 280px;
+    border: 2px solid lightgray;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 70px); /* Change the number 4 to adjust the number of columns */
+  grid-template-rows: repeat(6, 70px);    /* Change the number 4 to adjust the number of rows */
+  gap: 5px; /* Adjust the gap between squares as desired */
+  justify-content: center; /* Center the grid horizontally */
+  align-content: center;   /* Center the grid vertically */
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.square {
+  background-color: #fff; /* Change the color as desired */
+  border: 2px solid lightgrey;
+  color: #fff;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: #fff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  height: 65px;
+}
+
+img {
+  text-decoration: none;
+  font-size: 18px;
+  color:#333;
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  margin-top: 1px;
+}
+
+h1 {
+  font-size: 30px;
+  flex-grow: 1;
+  margin-right: 60px;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+#result-screen {
+  font-size: 30px;
+  display: none;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  color:#333;
+}

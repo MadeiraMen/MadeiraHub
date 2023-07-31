@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Aparajita';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/aparaj.ttf);
+}
+
+@font-face {
+    font-family: 'embossedblackwide-normal';
+    font-style: normal;
+    font-weight: 400;
+    src: url(fonts/embossedblackwide.woff);
+}
+
+.header-container {
+    text-align: center;
+}
+
+.weekly-header {
+    font-family: 'embossedblackwide-normal', sans-serif;
+    font-size: 75px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Aparajita', sans-serif;
+    font-size: 20px;
+    margin-top: -17px;
+}
+
+.underline-container {
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+}
+
+.custom-underline {
+    border-bottom: 1.5px solid;
+    margin-top: -34px;
+}
+
+.bordered-div {
+    border: 4px solid black;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 70px;
+}
+
+li {
+    font-family: 'Aparajita', sans-serif;
+    font-size: 20px;
+}
+
+ol {
+padding-left: 4%;
+}
+
+.bar-header {
+    background-color: #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    height: 65px;
+}
+  
+  img {
+    text-decoration: none;
+    font-size: 18px;
+    color:#333;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: #333;
+    flex-grow: 1;
+    margin-left: 825px;
+  }
+  
+  .home-button {
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+  }
