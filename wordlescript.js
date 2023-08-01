@@ -71,6 +71,18 @@ function checkGuess() {
       curSquare.style.backgroundColor = 'grey';
     }
   }
+  
+  if(guess === wordToGuess)
+  {
+    gameOver = true;
+    document.getElementById('guess-form').style.display = 'none';
+
+    const resultScreen = document.getElementById('result-screen');
+    resultScreen.innerHTML = "CORRECT! YOU WIN!";
+    resultScreen.style.display = 'block';
+    
+    return;
+  }
 
   guessAmount++;
 
