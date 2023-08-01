@@ -17,10 +17,9 @@ let guessAmount = 0;
 let gameOver = false;
 
 function checkGuess() {
-
-if(gameOver=== true) {
-  return;
-}
+  if (gameOver === true) {
+    return;
+  }
 
   const guessInput = document.getElementById('guess-input');
   const guess = guessInput.value.toUpperCase();
@@ -42,33 +41,35 @@ if(gameOver=== true) {
   for (let i = 0; i < guess.length; i++) {
     const letter = guess[i];
     guessLetters[letter] = (guessLetters[letter] || 0) + 1;
+  }
 
-    const letterIndexInWord = wordToGuess.indexOf(letter);
+  const remainingWordLetters = { ...wordLetters };
 
+  for (let i = 0; i < guess.length; i++) {
+    const letter = guess[i];
     const curSquare = squaresList[5 * guessAmount + i];
     curSquare.innerHTML = letter;
     curSquare.style.border = 'none';
 
-    if (letterIndexInWord === i) {
-      //Correct
+    if (letter === wordToGuess[i]) {
+      // Correct letter in the correct position (green)
       curSquare.style.backgroundColor = 'green';
-    } else if (letterIndexInWord !== -1 && guessLetters[letter] <= wordLetters[letter]) {
-      //Correct but wrong position
-      curSquare.style.backgroundColor = 'orange';
-    } else {
-      //Incorrect
-      curSquare.style.backgroundColor = 'grey';
+      remainingWordLetters[letter]--;
     }
   }
 
-  // Check if the player has won
-  if (guess === wordToGuess) {
-    document.getElementById('guess-form').style.display = 'none';
+  for (let i = 0; i < guess.length; i++) {
+    const letter = guess[i];
+    const curSquare = squaresList[5 * guessAmount + i];
 
-    const resultScreen = document.getElementById('result-screen');
-    resultScreen.innerHTML = "CORRECT! YOU WON!";
-    resultScreen.style.display = 'block';
-    return;
+    if (letter !== wordToGuess[i] && remainingWordLetters[letter] > 0) {
+      // Correct letter but in the wrong position (orange)
+      curSquare.style.backgroundColor = 'orange';
+      remainingWordLetters[letter]--;
+    } else if (letter !== wordToGuess[i]) {
+      // Incorrect letter (grey)
+      curSquare.style.backgroundColor = 'grey';
+    }
   }
 
   guessAmount++;
