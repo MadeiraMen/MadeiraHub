@@ -73,13 +73,13 @@ a {
 
 .left-panel {
     background-color: #3456b3;
-    height: 500px;
+    height: 27vw;
     width: 18%;
 }
 
 .right-panel {
     background-color: #333;
-    height: 500px;
+    height: 27vw;
     width: 82%;
 }
 
@@ -87,8 +87,8 @@ a {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: auto;
-    height: 100%;
+    width: 23.5%;
+    height: auto;
     padding-left: 4%;
 }
 
@@ -103,7 +103,7 @@ a {
 
 .player-name-container {
     padding-left: 14%;
-    padding-top: 5%;
+    padding-top: 4vw;
     font-family: Arial, sans-serif;
     color:#fff;
     display: flex;
@@ -123,15 +123,15 @@ a {
     margin-left: 2%;
     padding-top: 0.25%;
     border-left: 1px solid red;
-    font-size: 12px;
-    height: 18px;
+    font-size: 0.7vw;
+    height: 1vw;
 }
 
 .player-name-text {
     font-weight: bold;
     margin-left: 1.7%;
     padding-left: 0%;
-    font-size: 45px;
+    font-size: 2.35vw;
 }
 
 p{
@@ -148,6 +148,7 @@ h2{
     color:#fff;
     font-family: Arial, sans-serif;
     font-weight: initial;
+    font-size: 1.2vw;
 }
 
 .stat-titles-container {
@@ -159,10 +160,10 @@ h2{
     margin-right: 4%;
     padding-left: 6%;
     margin-left: 0px;
-    padding-top: 0.25%;
+    padding-top: 0.07vw;
     border-left: 1px solid red;
-    font-size: 12px;
-    height: 16px;
+    font-size: 0.7vw;
+    height: 1vw;
     color:#fff;
     font-family: Arial, sans-serif;
 }
@@ -172,6 +173,7 @@ h2{
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: initial;
+    font-size: 2.5vw;
 }
 
 .stat-holders {
@@ -187,11 +189,12 @@ h2{
 .stat-abr {
     font-weight: initial;
     margin-top: 3%;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 .bottom-line {
-    margin-top: 8.5%;
+    margin-top: 7vw;
+    bottom: 0;
 }
 
 .very-bottom-line {
