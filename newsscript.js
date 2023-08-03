@@ -11,8 +11,6 @@ const content = [
     "GDP DOMINATES Geog class with a STAGGERING 96%, TOPPING the cohort.",
     "Trebek (Blake) REFUSES to attend school due to his car getting TOTALLED, needing a REPAIR, and therefore REQUIRING him to catch the bus instead.",
     `History REPEATS itself as physical print dies YET AGAIN, as writer/publisher of this newsletter ANNOUNCES the end of printed form. The newsletter will now be accessed via Madeira Hub (URL above)`,
-",
-   
 ];
 
 const orderedList = document.createElement("ol");
