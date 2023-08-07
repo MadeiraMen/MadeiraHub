@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Aparajita';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/aparaj.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  text-decoration: none;
+  font-size: 18px;
+  color:#333;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  margin-top: 1px;
+}
+
+.home-button {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+h1 {
+  color: white;
+  font-size: 30px;
+  flex-grow: 1;
+  margin-right: 60px;
+}
+
+header {
+  background-color: #14859c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid lightgrey;
+  height: 65px;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(6, 5vw); /* Change the number 4 to adjust the number of columns */
+  grid-template-rows: repeat(5,5vw);    /* Change the number 4 to adjust the number of rows */
+  gap: 5px; /* Adjust the gap between squares as desired */
+  justify-content: center; /* Center the grid horizontally */
+  align-content: center;   /* Center the grid vertically */
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.square {
+  background-color: #ededed; /* Change the color as desired */
+  color: #333;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titles-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-top: 40px;
+  margin-bottom: 5px;
+}
+
+.titles-border {
+  position: relative;
+}
+
+.titles-border::after {
+  content: '';
+  position: absolute;
+  left: 50%; /* Center the border horizontally */
+  transform: translateX(-50%);
+  bottom: 5px;
+  width: 31.2vw; /* Adjust this value to control the width of the border */
+  height: 2px; /* Adjust this value to control the height/thickness of the border */
+  background-color: #14859c; /* Change this to the desired border color */
+  z-index: -1;
+}
+
+.title {
+  font-size: 1vw;
+  width: 5vw;
+  font-weight: bold;
+  color: #14859c;
+}
+
+.autocomplete {
+  position: relative;
+  margin-top: 25px;
+}
+
+#autocomplete-input {
+  width: 18vw;
+  height: 3vw;
+  font-size: 100%;
+  text-indent: 4%;
+}
+
+#suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid #ccc;
+  max-height: 150px; /* Set a maximum height for the suggestions */
+  overflow-y: auto;
+  position: absolute;
+  width: 18vw; /* Adjust the width as needed */
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  left: 50%; /* Horizontally center the suggestions box */
+  transform: translateX(-50%); /* Adjust to center properly */
+}
+
+#suggestions li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+#suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000; /* Higher than other elements */
+}
+
+.popup-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  color:#14859c;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+li {
+  text-align: left;
+}
+
+.green-highlight {
+  color: white;
+  background-color: green;
+}
+
+.yellow-highlight {
+  background-color: #fffa69;
+}
+
+.info-button {
+  cursor: pointer;
+}
+
+#results {
+  font-size: 100%;
+  color: #14859c;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  display: none;
+}

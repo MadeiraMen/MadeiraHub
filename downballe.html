@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Downballe</title>
+  <header>
+    <a class="home-button" href="https://madeiramen.github.io">
+        <img src="whiteMH.png">
+    </a>
+    <h1>Downballe</h1>
+    <a class="info-button" onclick="openPopup()">
+        <img src="whiteinfoicon.png">
+    </a>
+  </header>
+  <link rel="stylesheet" type="text/css" href="downballestyles.css">
+  
+</head>
+<body>
+
+    <div class="overlay" id="popup">
+        <div class="popup-content">
+          <span class="close-button" onclick="closePopup()">&times;</span>
+          <h2>GUESS THE MYSTERY PLAYER!</h2>
+          <ul>
+            <li>You get five guesses, try any current downball player!</li>
+            <br>
+            <li><span class="green-highlight">Green in any column</span> indicates a match!</li>
+            <br>
+            <li><span class="yellow-highlight">Yellow in the English or Maths column</span> indicates a partial match to the mystery player's English / Maths selection</li>
+            <br>
+            <li><span class="yellow-highlight">Yellow in the Height column</span> indicates that the guessed player's height is within 5cms of the mystery player's</li>
+            <br>
+            <li><span class="yellow-highlight">Yellow in the Age column</span> indicates that the gussed player's age is within 1 year of the mystery player's age</li>
+            <br>
+            <li>New mystery player every day!</li>
+          </ul>
+        </div>
+    </div>
+
+    <div class="overlay" id="post-game">
+        <div class="popup-content">
+          <span class="close-button" onclick="closeResults()">&times;</span>
+          <h3 id="won-text">YOU WON! THE MYSTERY PLAYER IS</h3>
+          <h2 id="mystery-player-text">PLAYER NAME</h2>
+          <h3 id="guesses-text">YOU GUESSED IN NUM GUESSES</h3>
+        </div>
+    </div>
+    
+    <div class="autocomplete">
+        <input type="text" id="autocomplete-input" placeholder="Player name here..." onkeydown="checkEnter(event)">
+        <ul id="suggestions"></ul>
+    </div>
+  
+    <div class="titles-container">
+        <div class="title">NAME</div>
+        <div class="title">HOUSE</div>
+        <div class="title">ENGLISH</div>
+        <div class="title">MATHS</div>
+        <div class="title">~HEIGHT</div>
+        <div class="title">AGE</div>
+    </div>
+    <div class="titles-border"></div>
+
+    <div id="grid-container"></div>
+
+    <div id="results" onclick="openResults()">View Results</div>
+
+    <script src="downballescript.js"></script>
+</body>
+</html>
