@@ -62,7 +62,7 @@ const AlexanderWingjan = new PlayerClass('Alexander Wingjan', 'Edith Stein', 'La
 
 const JohnWilton = new PlayerClass('John Wilton', 'Lisieux', 'Lang', 'Gen, Methods', 180, 18);
 
-const ThomasGrigoletto = new PlayerClass('Thomas Grigoletto', 'Avila', 'Lang', 'Gen, Methods', 180, 17);
+const ThomasGrigoletto = new PlayerClass('Thomas Grigoletto', 'Avila', 'Lang', 'Gen, Methods', 175, 17);
 
 const MinhVu = new PlayerClass('Minh Vu', 'Avila', 'Eng', 'Methods', 170, 18);
 
