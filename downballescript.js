@@ -74,7 +74,7 @@ const AnthonyMoule = new PlayerClass('Anthony Moule', 'Avila', 'Eng', 'Gen', 180
 
 const NathanHugo = new PlayerClass('Nathan Hugo', 'Brandsma', 'VCAL Eng', 'VCAL Num', 175, 17); //done
 
-const AydenIkonomopoulos = new PlayerClass('Ayden Ikonomopoulos', 'Eng', 'Methods', 175, 18);
+const AydenIkonomopoulos = new PlayerClass('Ayden Ikonomopoulos', 'Brandsma', 'Eng', 'Methods', 175, 18);
 
 const LewisCameron = new PlayerClass('Lewis Cameron', 'Soreth', 'Lang', 'Gen, Methods, Spesh', 180, 18);
 
