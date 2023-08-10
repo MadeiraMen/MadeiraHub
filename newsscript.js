@@ -1,16 +1,16 @@
 const content = [
-    "Swinburne worker INFORMS Jacob that he shouldn’t go, LOSING them copious amounts of revenue.",
-    "Liam ASSAULTED on the 380 by a 70/80-year-old man who HURLED himself at a HIGH VELOCITY towards Liam.",
-    "Harro and Lohm (lim) (Liam) MORTIFIED during Study Session as they OVERHEAR Sasha’s conversation: “She was SIXTEEN, Tarkin!” – highly incriminating evidence.",
-    "Madeira Men JUBILANT after the launch of the online Madeira Hub, hosting activities such as The Daily* Madeiral and Newsletters. Future growth is expected for https://madeiramen.github.io ",
-    "Nathan Hugo + Harro + Jeb are DEVASTATED as Aussies (cricket) THROW AWAY a SINCH win in England. Meanwhile, the Aussies (soccer) cause EUPHORIA within the ranks with a 4-0 OBLITERATION over Canada, PROGRESSING them into the knockout stage against Denmark.",
-    "Schoolwide FAILURE from the Maths Department (Methods) as cohort average was so low it had to be boosted. ",
-    `Blake’s Broadly Bites on Brunch, Bearing Big Brekkie Burger Meal (with Hashbrown and Birthday Cake flavoured latte) as he RACKS UP yet ANOTHER unresolved absence.`,
-    "Mr Height SHOCKS pastoral care by announcing he is going to ATTEND a job interview, says it is for the role of PRINICPLE at Mullauna College: “we’re gonna be making some changes”¬ – Heighty regarding the shit college.",
-    "Mozz REVEALS that T Collo (Trent Collins) CONVINCED him to buy a pair of shoes. ",
-    "GDP DOMINATES Geog class with a STAGGERING 96%, TOPPING the cohort.",
-    "Trebek (Blake) REFUSES to attend school due to his car getting TOTALLED, needing a REPAIR, and therefore REQUIRING him to catch the bus instead.",
-    `History REPEATS itself as physical print dies YET AGAIN, as writer/publisher of this newsletter ANNOUNCES the end of printed form. The newsletter will now be accessed via Madeira Hub (URL above)`
+    "HEARTBREAK as The Hurn (Shannon Hurn) announces his retirement, somehow causing the Eagles to become EVEN WORSE",
+    "Toland is ordered to LEAVE the classroom after STINKING it out with a fart. Detective Crack believes this may be connected to the Kairos Stinker Incident, which claimed several lives last year.",
+    "Accounting ASTROCITY as class FLUNKS yet another SAC with a STAGGERING 55% average. One student, who will go unnamed, received a WHOPPING 13%",
+    "Newey ONCE AGAIN proves his IMMORALITY as he uses CHILDREN as examples of assets: “you would be depreciating in value” – possibly the last thing Kevy Dumb-Dumb said before he lost his teaching licence.",
+    "Liam is STRANDED after bus DIDN’T arrive, FORCING him to walk to school during a BLIZZARD* (source needed)",
+    "HUGE profit for Liam after purchasing ONE cheese and bacon toastie for the price of a regular cheese. He applauds Moule (Anthony M.) for his selfless humanitarian action.",
+    `John’s joyless journey after julienned potato snack is DROPPED on the GROUND, causing WIDESPREAD PANIC.`,
+    "HUGE allegation made on Dougy (Mr Douglas) and his questionable comments on sports: “I would rather be in the Matilda’s changing rooms”  - alleged quote from the now sketchy man (via Jordan Murtic)",
+    "BROBDINGNANGIAN reveal during accounting class as The News (Newey (Kevin Nguyen) CONFESSES his vaping addiction: “I Just cannot stop” – The News, on his unbreakable bond with Raspberry Mint",
+    "MASSIVE win for Aharro as he AQUIRES gold status in CSGO: “yeeeeeeeeeeeeeaaaaaaaaaaaaaaaaaaahhhhhhhhhhhh!!!!!!!!!!!” – Adam Harrison as he becomes SLIGHTLY less trash at the game.",
+    "National DELECTATION as Matildas BUTTFUCK the Danish Duds in an UNEQUIVICAL 2-0 THRASHING in the Round of 16",
+    `ANOTHER win for Adam Harrison as he guesses the DownBalle in one attempt (it was himself)`
 ];
 
 const orderedList = document.createElement("ol");
