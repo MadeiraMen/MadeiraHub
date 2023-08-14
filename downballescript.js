@@ -108,7 +108,7 @@ const playerClasses = [
   JackSugden,
 ];
 
-const playerToGuess = SamuelWensor;
+const playerToGuess = KasparNickel;
 
 let guessAmount = 0;
 let gameOver = false;
