@@ -11,7 +11,7 @@ for (let i = 0; i < numSquares; i++) {
   squaresList[i] = square;
 }
 
-const wordToGuess = 'RADIO';
+const wordToGuess = 'MEDIA';
 let guessAmount = 0;
 
 let gameOver = false;
