@@ -56,7 +56,7 @@ const BlakeKeane = new PlayerClass('Blake Keane', 'Avila', 'Eng', 'Gen', 190, 18
 
 const AdamHarrison = new PlayerClass('Adam Harrison', 'Avila', 'Eng', 'Methods', 180, 17);
 
-const AdamTkalec = new PlayerClass('Adam Tkalec', 'Corsini', 'Lang', 'Methods', 175, 18);
+const AdamTkalec = new PlayerClass('Adam Tkalec', 'Corsini', 'Lang', 'Methods', 175, 19);
 
 const AlexanderWingjan = new PlayerClass('Alexander Wingjan', 'Edith Stein', 'Lang', "Gen, Methods", 190, 17);
 
