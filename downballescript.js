@@ -50,7 +50,7 @@ class PlayerClass {
 //Name,  House,  Type of English you do,  Type of Maths you do,  Height in cm,  Age
 const JacobKingston = new PlayerClass('Jacob Kingston', 'Corsini', 'Eng', 'Gen', 175, 18);
 
-const LiamWatts = new PlayerClass('Liam Watts', 'Lisieux', 'Eng', 'Gen', 170, 18);
+const LiamWatts = new PlayerClass('Liam Watts', 'Lisieux', 'Eng', 'Gen', 175, 18);
 
 const BlakeKeane = new PlayerClass('Blake Keane', 'Avila', 'Eng', 'Gen', 190, 18);
 
@@ -58,7 +58,7 @@ const AdamHarrison = new PlayerClass('Adam Harrison', 'Avila', 'Eng', 'Methods',
 
 const AdamTkalec = new PlayerClass('Adam Tkalec', 'Corsini', 'Lang', 'Methods', 175, 19);
 
-const AlexanderWingjan = new PlayerClass('Alexander Wingjan', 'Edith Stein', 'Lang', "Gen, Methods", 190, 17);
+const AlexanderWingjan = new PlayerClass('Alexander Wingjan', 'Edith Stein', 'Lang', "Gen, Methods", 195, 17);
 
 const JohnWilton = new PlayerClass('John Wilton', 'Lisieux', 'Lang', 'Gen, Methods', 180, 18);
 
@@ -74,7 +74,7 @@ const AnthonyMoule = new PlayerClass('Anthony Moule', 'Avila', 'Eng', 'Gen', 180
 
 const NathanHugo = new PlayerClass('Nathan Hugo', 'Brandsma', 'VCAL Eng', 'VCAL Num', 175, 17); //done
 
-const AydenIkonomopoulos = new PlayerClass('Ayden Ikonomopoulos', 'Brandsma', 'Eng', 'Methods', 175, 18);
+const AydenIkonomopoulos = new PlayerClass('Ayden Ikonomopoulos', 'Brandsma', 'Eng', 'Methods', 185, 18);
 
 const LewisCameron = new PlayerClass('Lewis Cameron', 'Soreth', 'Lang', 'Gen, Methods, Spesh', 180, 18);
 
