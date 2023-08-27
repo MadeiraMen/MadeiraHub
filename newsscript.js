@@ -12,7 +12,7 @@ const content = [
     "J-Dog the Falcon (Jacob Toland) declared DEAD at age 14 after not coming to school for WEEKS. Public celebrations ensue",
     `J-Dog the Combo (Jacob Kingston) breaks aviation RECORD as he somehow exceeds terminal velocity after LEAPING off T4.01 (he had to attend several Mr Cotter classes)`
     "Gavin APPROVES of Liam’s ILLICIT shoes worn to school: “those kicks are pretty fresh” – GDP regarding Liam’s foot fit"
-    "Mozz (Mr Zerella) INFORMS class that he was SICK, ILL and SOMEWHAT UNWELL ON THE WEEKEND."
+    "Mozz (Mr Zerella) INFORMS class that he was SICK, ILL and SOMEWHAT UNWELL ON THE WEEKEND.
 ];
 
 const orderedList = document.createElement("ol");
