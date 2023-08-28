@@ -33,7 +33,10 @@ const players = [
     'Joseph Li-Sculli',
     'Samuel Wensor',
     'Jack Sugden',
-    'Reinhardt Lategan'
+    'Reinhardt Lategan',
+    'Andre Pauli',
+    'Daniel Brand',
+    'Ryan Bunker-Smith'
 ];
 
 class PlayerClass {
@@ -86,6 +89,12 @@ const JackSugden = new PlayerClass('Jack Sugden', 'Mantua', 'Eng', 'Methods', 17
 
 const ReinhardtLategan = new PlayerClass('Reinhardt Lategan', 'Soreth', 'Eng, Lang', 'Gen', 175, 18);
 
+const AndrePauli = new PlayerClass("Andre Pauli", "Soreth", "Eng", "Gen", 185, 18);
+
+const DanielBrand = new PlayerClass("Daniel Brand", "Mantua", "Lang", "Methods", 180, 17);
+
+const RyanBunkerSmith = new PlayerClass("Ryan Bunker-Smith", "Corsini", "Eng", "Gen", 180, 18);
+
 const playerClasses = [
   JacobKingston,
   LiamWatts,
@@ -106,6 +115,9 @@ const playerClasses = [
   JosephLiSculli,
   SamuelWensor,
   JackSugden,
+  AndrePauli,
+  DanielBrand,
+  RyanBunkerSmith,
 ];
 
 const playerToGuess = JosephLiSculli;
