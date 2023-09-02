@@ -120,7 +120,7 @@ const playerClasses = [
   RyanBunkerSmith,
 ];
 
-const playerToGuess = DanielBrand;
+const playerToGuess = ThomasGrigoletto;
 
 let guessAmount = 0;
 let gameOver = false;
