@@ -36,7 +36,9 @@ const players = [
     'Reinhardt Lategan',
     'Andre Pauli',
     'Daniel Brand',
-    'Ryan Bunker-Smith'
+    'Ryan Bunker-Smith',
+    'Bill Donaldson',
+    'Gavin Pinto'
 ];
 
 class PlayerClass {
@@ -95,6 +97,10 @@ const DanielBrand = new PlayerClass("Daniel Brand", "Mantua", "Lang", "Methods",
 
 const RyanBunkerSmith = new PlayerClass("Ryan Bunker-Smith", "Corsini", "Eng", "Gen", 180, 18);
 
+const BillDonaldson = new PlayerClass("Bill Donaldson", "Avila", "Eng", "Gen", 175, 18);
+
+const GavinPinto = new PlayerClass("Gavin Pinto", "Soreth", "Eng", "Gen", 175, 18);
+
 const playerClasses = [
   JacobKingston,
   LiamWatts,
@@ -118,6 +124,8 @@ const playerClasses = [
   AndrePauli,
   DanielBrand,
   RyanBunkerSmith,
+  BillDonaldson,
+  GavinPinto,
 ];
 
 const playerToGuess = LewisCameron
