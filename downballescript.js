@@ -128,7 +128,7 @@ const playerClasses = [
   GavinPinto,
 ];
 
-const playerToGuess = JacobKingston
+const playerToGuess = AndrePauli
 
 let guessAmount = 0;
 let gameOver = false;
